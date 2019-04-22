@@ -22,6 +22,6 @@ class ProductCollection extends Resource
             'href' => [
                 'reviews' => route('products.show', $this->id)
             ]
-            ];
+        ];
     }
 }
